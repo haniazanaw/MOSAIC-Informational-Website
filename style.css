@@ -138,5 +138,118 @@ margin-top: 10px;
 
 
 
+.info-content{
+    display: flex;
+    gap: 1px;
+    padding-top: 40px;
+}
+.info-page{
+    background-color: #834207;
+    color: white;
+    height: 100vh;
+}
+#info-title{
+    text-align: center;
+}
+.sectionfourimg{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.section-four-content{
+    padding-left: 6cm;
+    padding-top: 15%;
+    font-size: 1.5em;
+}
+
+
+
+.why-mosaic-home{
+    background-color: white;
+    max-width: 90vh;
+    margin: 40px;
+    text-align: center;
+}
+#head{
+   text-align: center;
+    margin-top: 15%;
+    color:#834207;
+    font-size: 1 em;
+    margin-left: 72%;
+}
+.core-values{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    width: 100vh;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.secured-transfers{
+    background-color: #834207;
+    color: white;
+    width: 800px;
+    height: 55vh;
+     padding: 5%;
+}
+#secured-title{
+    margin-top: 20%;
+}
+#sustainable-title{
+    margin-top: 20%;
+    color:#834207;
+}
+#quality-title{
+    margin-top: 20%;
+}
+#interface-title{
+    margin-top: 20%;
+}
+#secured-text{
+   margin-top: 10%;
+}
+#sustainable-text{
+   margin-top: 10%;
+   color:#834207;
+}
+#quality-text{
+   margin-top: 10%;
+}
+#interface-text{
+   margin-top: 10%;
+   color:#834207;
+}
+.sustainable-fashion{
+    background-color: white;
+    width: 800px;
+    border: 2px solid #834207;
+    height: 55vh;
+    padding: 5%;
+}
+.quality-products{
+    background-color: #834207;
+    color: white;
+    width: 800px;
+    height: 55vh;
+    padding: 5%;
+}
+.easy-interface{
+    color:#834207;
+    width: 800px;
+    border: 2px solid #834207;
+    height: 55vh;
+    padding: 5%;
+}
+#sheild{
+  width: 20vh;
+  margin-top: 20%;
+}
+
+
+
+
+
+
+
+
 
 
