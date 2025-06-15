@@ -243,14 +243,6 @@ margin-top: 10px;
   width: 20vh;
   margin-top: 20%;
 }
-
-
-
-
-
-
-
-
 #products-title{
     text-align: center;
     margin-top: 7%;
@@ -268,6 +260,7 @@ margin-top: 10px;
     width: 85vw;
     margin-left: 7%;
     margin-top: 4%;
+   gap: 2%;
 }
 ::-webkit-scrollbar{
    display: none;
