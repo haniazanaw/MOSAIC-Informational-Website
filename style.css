@@ -62,3 +62,75 @@ nav{
 
 
 
+.designerContainer{
+    display: flex;
+    gap: 350px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.traderContainer{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#traderTitle{
+    margin-top: 30px;
+    margin-left: 1100px;
+    color: #834207;
+    font-size: 50px;
+}
+#traderText{
+margin-left: 1200px;
+color: #834207;
+margin-top: 10px;
+}
+#designerTitle{
+    font-size: 50px;
+    text-wrap: nowrap;
+    color: #834207;
+}
+.designerText{
+    margin-top: 160px;
+}
+#designerAbout{
+    font-size: 29px;
+    margin-top: 50px;
+    text-wrap: nowrap;
+}
+#traderAbout{
+   font-size: 29px;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+.traderButton{
+    margin-left: -60px;
+}
+#designerText{
+    color: #834207;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#designerImage{
+    border-radius: 20px 20px 0px 0px;
+    width: 75%;
+    height: 80%;
+    margin-top: 60px;
+}
+#traderImage{
+    border-radius:20px 20px 0px 0px;
+    width: 50%;
+    height: 150%;
+    margin-top: -150px;
+}
+#signUpButton{
+    width: 40%;
+    padding: 20px;
+    background-color: #834207;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.traderText{
+    margin-left: -80px;
+}
