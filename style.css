@@ -37,7 +37,7 @@ h1{
 }
 #title{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 12%;
     color: white;
     font-size: 100px;
 }
@@ -50,9 +50,21 @@ h1{
 }
 .getapp{
     background-color: rgba(128, 128, 128, 0.648);
-    width: 120px;
+    width: 220px;
     padding-left: 70px;
     padding: 5px;
     margin-left: 70px;
     border-radius: 10px;
+    display: flex;
+
+    img{
+        padding-left: 10px;
+    }
+    
+    p{
+       margin-left: 30px;
+       margin-bottom: 20px;
+       font-size: large;
+       color: white;
+    }
 }
