@@ -116,6 +116,81 @@
             </div>
     </div>
 
+<div class="products-page">
+    <h1 id="products-title">OUR PRODUCTS</h1>
+    <P id="product-advertise">Our products range within all types of fashion products. We cover clothes from kids to
+        adults.</P>
+     <div class="products">
+        <div class="product first-product">
+            <img src="images/cloth1.png">
+            <p id="jackets">JACKETS</p>
+        </div>
+        <div class="product second-product">
+            <img src="images/second_cloth.png">
+            <p id="dresses">DRESSES</p>
+        </div>
+        <div class="product third-product">
+            <img src="images/middle.png">
+            <p id="blouses">BLOUSES</p>
+        </div>
+        <div class="product fourth-product">
+            <img src="images/fourth-image (1).png">
+            <p id="trousers">TROUSERS</p>
+        </div>
+        <div class="product fifth-product">
+            <img src="images/fifth_image.png">
+            <p id="shirt">SHIRT</p>
+        </div>
+         <div class="product six-product">
+            <img src="images/des_skirt.png">
+            <p id="skirt">SKIRT</p>
+        </div>
+            <div class="product eighth-product">
+            <img src="images/dress2.png">
+            <p id="coat">COAT</p>
+        </div>
+         <div class="product seventh-product">
+            <img src="images/des_long-skirt.png">
+            <p id="long-skirt">LONG SKIRT</p>
+        </div>
+    </div>
+<script>
+     const products = document.querySelectorAll('.product');
+  const productsContainer = document.querySelector('.products');
+  function selectCenterProduct() {
+    const containerRect = productsContainer.getBoundingClientRect();
+    let closest = null;
+    let closestDist = Infinity;
+    products.forEach(product => {
+      const rect = product.getBoundingClientRect();
+      const productCenter = rect.left + rect.width / 2;
+      const containerCenter = containerRect.left + containerRect.width / 2;
+      const dist = Math.abs(productCenter - containerCenter);
+      if (dist < closestDist) {
+        closestDist = dist;
+        closest = product;
+      }
+      product.classList.remove('selected');
+    });
+    if (closest) closest.classList.add('selected');
+  }
+  selectCenterProduct();
+  productsContainer.addEventListener('scroll', selectCenterProduct);
+  window.addEventListener('resize', selectCenterProduct);
+</script>
+    <img src="images/cloth store.png" id="cloth-store">
+    <p id="fashion">FASHION FORWARD</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
     </div>
 </body>
