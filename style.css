@@ -1,11 +1,17 @@
-body{
-   margin: 0%; 
-   background-image: url(img/Screenshot\ from\ 2025-06-13\ 09-18-20.png);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-page{
+    background-image: url(img/Screenshot\ from\ 2025-06-13\ 09-18-20.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
+    height: 100vh;
 }
+
 .image{
     #background{
         height: 900px;
@@ -29,12 +35,7 @@ nav{
     }
     
 }
-h1{
-    color: white;
-    font-size: 200px;
-    text-align: center;
-    margin-bottom: 500px;
-}
+
 #title{
     text-align: center;
     margin-top: 10%;
@@ -56,3 +57,8 @@ h1{
     margin-left: 70px;
     border-radius: 10px;
 }
+
+
+
+
+
