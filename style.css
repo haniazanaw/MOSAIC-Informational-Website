@@ -116,10 +116,10 @@ margin-top: 10px;
     height: 80%;
     margin-top: 60px;
 }
-#traderImage{
+#trader-image{
     border-radius:20px 20px 0px 0px;
     width: 50%;
-    height: 150%;
+    height: 130%;
     margin-top: -150px;
 }
 #signUpButton{
@@ -134,3 +134,35 @@ margin-top: 10px;
 .traderText{
     margin-left: -80px;
 }
+
+
+
+
+.info-content{
+    display: flex;
+    gap: 1px;
+    padding-top: 40px;
+}
+.info-page{
+    background-color: #834207;
+    color: white;
+    height: 100vh;
+}
+#info-title{
+    text-align: center;
+}
+.sectionfourimg{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.section-four-content{
+    padding-left: 6cm;
+    padding-top: 15%;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
