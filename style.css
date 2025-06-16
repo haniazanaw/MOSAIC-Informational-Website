@@ -50,17 +50,21 @@ nav{
     margin-top: 0px;
 }
 .getapp{
-    background-color: rgba(128, 128, 128, 0.648);
-    width: 220px;
+    background-color: rgba(78, 32, 2, 0.648);
+    width: 180px;
     padding-left: 70px;
     padding: 5px;
     margin-left: 70px;
     border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    p{
+        font-size: 25px;
+        color: wheat;
+        margin-top: 10px;
+    }
 }
-
-
-
-
 
 .designerContainer{
     display: flex;
