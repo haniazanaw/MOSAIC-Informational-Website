@@ -1,3 +1,8 @@
+
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+body{
+     font-family: "American Typewriter",sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -192,7 +197,7 @@ nav {
 }
 
 #info-title {
-    text-align: center;
+    margin-left: 37%;
     padding-top: 7%;
     font-size: 3.2em;
 }
@@ -212,18 +217,17 @@ nav {
 
 .why-mosaic-home {
     background-color: white;
-    max-width: 90vh;
+    max-width: 90vh; 
     margin: 40px;
-    text-align: center;
+    text-align: center; 
 }
 
 #head {
     width: 100%;
-    text-align: center;
     margin-top: 15%;
     color: #834207;
     font-size: 2em;
-    margin-left: 52%;
+    margin-left: 60%;
 }
 
 .core-values {
@@ -308,10 +312,10 @@ nav {
 }
 
 #products-title {
-    text-align: center;
     margin-top: 7%;
       color: #834207;
     font-size: 50px;
+    margin-left: 37%;
 }
 
 #product-advertise {
@@ -601,6 +605,7 @@ strong{
 #contact-title{
     font-size: 4em;
     margin-top: 5%;
+    margin-left: 0.5cm;
     
 }
 .contact-section{
@@ -608,12 +613,6 @@ strong{
 max-height: 100v;
 
 }
-
-#user-details{
-    
-   
-}
-
 hr{
     width: 230%;
     
