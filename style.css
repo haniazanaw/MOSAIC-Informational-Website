@@ -254,10 +254,12 @@ margin-top: 10px;
 
 
 
+
+
 #products-title{
     text-align: center;
     margin-top: 7%;
-    color: rgb(156, 97, 19);
+    color: #834207;
     font-size: 50px;
 }
 #product-advertise {
@@ -271,6 +273,7 @@ margin-top: 10px;
     width: 85vw;
     margin-left: 7%;
     margin-top: 4%;
+   gap: 2%;
 }
 ::-webkit-scrollbar{
    display: none;
@@ -279,48 +282,48 @@ margin-top: 10px;
     margin-left: 65px;
     margin-top: 129px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+    color: #834207;
 }
 #dresses {
     margin-left: 90px;
     font-size: 25px;
-    color: rgb(104, 71, 28);
+    color: #834207;
      margin-top: 8%;
 }
 #blouses {
     margin-top: 99px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+          color: #834207;
 }
 #trousers {
     margin-top: -9px;
     margin-left: -60px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+         color: #834207;
 }
 #shirt {
     margin-top: 52px;
     margin-left: -175px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+          color: #834207;
 }
 #skirt {
     margin-top: 100px;
     margin-left: -170px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+          color: #834207;
 }
 #coat {
     margin-top: 102px;
     margin-left: -70px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+          color: #834207;
 }
 #long-skirt {
     margin-top: 104px;
     margin-left: -64px;
     font-size: 25px;
-        color: rgb(104, 71, 28);
+    color: #834207;
 }
 .first-product img {
     height: 300px;
@@ -372,7 +375,7 @@ margin-top: 10px;
 #fashion {
     text-align: center;
     font-size: 25px;
-    color: rgb(124, 83, 29);
+     color: #834207;
 }
 .product.selected img {
   transform: scale(1.3);
@@ -388,3 +391,7 @@ margin-top: 10px;
 .product {
   scroll-snap-align: center;
 }
+
+
+
+
