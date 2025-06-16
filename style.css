@@ -1,11 +1,17 @@
-body{
-   margin: 0%; 
-   background-image: url(img/Screenshot\ from\ 2025-06-13\ 09-18-20.png);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-page{
+    background-image: url(img/Screenshot\ from\ 2025-06-13\ 09-18-20.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
+    height: 100vh;
 }
+
 .image{
     #background{
         height: 900px;
@@ -29,12 +35,7 @@ nav{
     }
     
 }
-h1{
-    color: white;
-    font-size: 200px;
-    text-align: center;
-    margin-bottom: 500px;
-}
+
 #title{
     text-align: center;
     margin-top: 12%;
@@ -55,16 +56,329 @@ h1{
     padding: 5px;
     margin-left: 70px;
     border-radius: 10px;
-    display: flex;
-
-    img{
-        padding-left: 10px;
-    }
-    
-    p{
-       margin-left: 30px;
-       margin-bottom: 20px;
-       font-size: large;
-       color: white;
-    }
 }
+
+
+
+
+
+.designerContainer{
+    display: flex;
+    gap: 350px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.traderContainer{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#traderTitle{
+    margin-top: 30px;
+    margin-left: 1100px;
+    color: #834207;
+    font-size: 50px;
+}
+#traderText{
+margin-left: 1200px;
+color: #834207;
+margin-top: 10px;
+}
+#designerTitle{
+    font-size: 50px;
+    text-wrap: nowrap;
+    color: #834207;
+}
+.designerText{
+    margin-top: 160px;
+}
+#designerAbout{
+    font-size: 29px;
+    margin-top: 50px;
+    text-wrap: nowrap;
+}
+#traderAbout{
+   font-size: 29px;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+.traderButton{
+    margin-left: -60px;
+}
+#designerText{
+    color: #834207;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#designerImage{
+    border-radius: 20px 20px 0px 0px;
+    width: 75%;
+    height: 80%;
+    margin-top: 60px;
+}
+#trader-image{
+    border-radius:20px 20px 0px 0px;
+    width: 50%;
+    height: 130%;
+    margin-top: -150px;
+}
+#signUpButton{
+    width: 40%;
+    padding: 20px;
+    background-color: #834207;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.traderText{
+    margin-left: -80px;
+}
+
+
+
+
+.info-content{
+    display: flex;
+    gap: 1px;
+    padding-top: 40px;
+}
+.info-page{
+    background-color: #834207;
+    color: white;
+    height: 100vh;
+}
+#info-title{
+    text-align: center;
+}
+.sectionfourimg{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.section-four-content{
+    padding-left: 6cm;
+    padding-top: 15%;
+    font-size: 1.5em;
+}
+
+
+
+.why-mosaic-home{
+    background-color: white;
+    max-width: 90vh;
+    margin: 40px;
+    text-align: center;
+}
+#head{
+   text-align: center;
+    margin-top: 15%;
+    color:#834207;
+    font-size: 1 em;
+    margin-left: 72%;
+}
+.core-values{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    width: 100vh;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.secured-transfers{
+    background-color: #834207;
+    color: white;
+    width: 800px;
+    height: 55vh;
+     padding: 5%;
+}
+#secured-title{
+    margin-top: 20%;
+}
+#sustainable-title{
+    margin-top: 20%;
+    color:#834207;
+}
+#quality-title{
+    margin-top: 20%;
+}
+#interface-title{
+    margin-top: 20%;
+}
+#secured-text{
+   margin-top: 10%;
+}
+#sustainable-text{
+   margin-top: 10%;
+   color:#834207;
+}
+#quality-text{
+   margin-top: 10%;
+}
+#interface-text{
+   margin-top: 10%;
+   color:#834207;
+}
+.sustainable-fashion{
+    background-color: white;
+    width: 800px;
+    border: 2px solid #834207;
+    height: 55vh;
+    padding: 5%;
+}
+.quality-products{
+    background-color: #834207;
+    color: white;
+    width: 800px;
+    height: 55vh;
+    padding: 5%;
+}
+.easy-interface{
+    color:#834207;
+    width: 800px;
+    border: 2px solid #834207;
+    height: 55vh;
+    padding: 5%;
+}
+#sheild{
+  width: 20vh;
+  margin-top: 20%;
+}
+#products-title{
+    text-align: center;
+    margin-top: 7%;
+    color: rgb(156, 97, 19);
+    font-size: 50px;
+}
+#product-advertise {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+.products {
+    overflow: auto;
+    display: flex;
+    width: 85vw;
+    margin-left: 7%;
+    margin-top: 4%;
+   gap: 2%;
+}
+::-webkit-scrollbar{
+   display: none;
+}
+#jackets {
+    margin-left: 65px;
+    margin-top: 129px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+#dresses {
+    margin-left: 90px;
+    font-size: 25px;
+    color: rgb(104, 71, 28);
+     margin-top: 8%;
+}
+#blouses {
+    margin-top: 99px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+#trousers {
+    margin-top: -9px;
+    margin-left: -60px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+#shirt {
+    margin-top: 52px;
+    margin-left: -175px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+#skirt {
+    margin-top: 100px;
+    margin-left: -170px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+#coat {
+    margin-top: 102px;
+    margin-left: -70px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+#long-skirt {
+    margin-top: 104px;
+    margin-left: -64px;
+    font-size: 25px;
+        color: rgb(104, 71, 28);
+}
+.first-product img {
+    height: 300px;
+    width: 240px;
+}
+.second-product img {
+    height: 50vh;
+    width: 21vw;
+    margin-left: -10%;
+    margin-top: -70px;
+}
+.third-product img {
+    height: 35vh;
+    width: 19vw;
+    margin-left: -30%;
+}
+.fourth-product img {
+    height: 50vh;
+    width: 25vw;
+    margin-left: -50%;
+    margin-top: -34px;
+}
+.fifth-product img {
+    height: 40vh;
+    width: 20vw;
+    margin-left: -90%;
+}
+.six-product img {
+    height: 35vh;
+    width: 13vw;
+    margin-left: -100%;
+}
+.seventh-product img {
+    height: 35vh;
+    width: 10vw;
+    margin-left: -50%;
+}
+.eighth-product img {
+    height: 35vh;
+    width: 20vw;
+    margin-left: -55%;
+}
+#cloth-store {
+    margin-left: 38%;
+    margin-top: 60px;
+    width: 25vw;
+    height: 25vh;
+}
+#fashion {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(124, 83, 29);
+}
+.product.selected img {
+  transform: scale(1.3);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  z-index: 2;
+}
+.product img {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.products {
+  scroll-snap-type: x mandatory;
+}
+.product {
+  scroll-snap-align: center;
+}
+
+
+
+
